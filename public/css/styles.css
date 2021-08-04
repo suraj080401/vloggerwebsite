@@ -271,7 +271,9 @@ footer
     font-size: 50px;
     color:#ef9273;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-    margin: 40px;
+    margin: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ef9273;
 }
 .container2 {
 	max-width: 100rem;
@@ -358,9 +360,10 @@ textarea {
 .contactform
 {
     margin: 0;
-    padding: 80px;
+    padding: 200px;
     background-color: black;
     margin-top: 80px;
+    height: 1500px;
 }
 .contactform h1
 {
@@ -369,13 +372,13 @@ textarea {
 }
 .youtube-gallery
 {
-    margin: 50px 0;
+    margin: 25px 0;
 }
 .coming-soon
 {
     text-transform: uppercase;
     width: 100%;
-    height: 500px;
+    height: 1200px;
     text-align: center;
     margin-top: 350px;
     font-family: 'Montserrat', sans-serif;
@@ -383,4 +386,30 @@ textarea {
 .coming-soon h1:hover
 {
     color: #ef9273;
+}
+.blog-container
+{
+   padding: 100px;
+   margin: 50px auto;
+}
+.readmore_button
+{
+    background-color: #ef9273;
+    border: 1px solid black;
+}
+.content-container
+{
+    margin: 100px auto;
+    padding: 10px;
+}
+.content-container p
+{
+    color: gray;
+    line-height: 200%;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.content-container h4
+{
+    line-height: 200%;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }

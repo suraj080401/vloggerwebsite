@@ -44,7 +44,12 @@ app.post("/contact",function(req,res){
     }
   })
 });
-
-app.listen(process.env.PORT,function(req,res){
+app.get("/mathura-vrindavan",function(req,res){
+  res.render("vlog1",{});
+});
+app.get("/restricted-waterfall",function(req,res){
+  res.render("vlog2",{});
+})
+app.listen(process.env.PORT||3000,function(req,res){
   console.log("Succesfully Started");
 });
